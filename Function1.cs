@@ -28,7 +28,7 @@ namespace AzureFunctionIntegration
             // Create a response
             var response = req.CreateResponse(HttpStatusCode.OK);
             await response.WriteStringAsync($"Hello, {name}");
-            await response.WriteStringAsync($"Welcome!");
+            await response.WriteStringAsync($"Welcome!!");
             return response;
         }
     }
